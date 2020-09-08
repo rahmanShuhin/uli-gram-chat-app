@@ -1,0 +1,8 @@
+.comment {
+  display: flex;
+  padding: 10px 8px;
+  align-items: center;
+}
+.comment > P {
+  margin-left: 6px;
+}

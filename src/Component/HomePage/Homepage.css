@@ -1,0 +1,72 @@
+.homepage__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #3b63ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 7vh;
+  box-shadow: 10px 10px 10px lightgray;
+}
+.homepage__header__left {
+  display: flex;
+  align-items: center;
+}
+.homepage__header__left > p {
+  margin-left: 5px;
+}
+.homepage__post {
+  margin: 5% auto;
+  max-width: 600px;
+}
+.homepage_post__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5% 5%;
+}
+.homepage__post__input__left {
+  flex: 0.1;
+}
+.homepage__post__input__left > .MuiAvatar-root {
+  margin: 0 auto !important;
+}
+.homepage_post__input__right {
+  flex: 1;
+  margin: 0 5px !important;
+}
+.send__icon {
+  color: black !important;
+  background: red !important;
+}
+.homepage__file {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.homepage__file > input {
+  flex: 1;
+}
+.homepage__file > progress {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage__post {
+    margin: 5% 5%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .homepage .MuiInputBase-input {
+    padding: 17% 0% 2% 5% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .homepage .MuiInputBase-input {
+    padding: 25% 0% 2% 5% !important;
+  }
+}

@@ -1,0 +1,38 @@
+.landing {
+  background: #3b63ff;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.landing__top {
+  text-align: center;
+}
+.landing__top > h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+.landing__top > p {
+  color: lightgray;
+}
+.landing__bottom {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.landing__bottom button:nth-child(1) {
+  margin-bottom: 20px;
+  background-color: white !important;
+  font-weight: 700 !important;
+  color: #3b63ff !important;
+}
+.landing__bottom button:nth-child(2) {
+  background: none !important;
+  color: white !important;
+}
+@media only screen and (max-width: 600px) {
+  .landing__bottom {
+    width: 80%;
+  }
+}

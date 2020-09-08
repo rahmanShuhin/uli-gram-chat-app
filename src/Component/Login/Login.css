@@ -1,0 +1,88 @@
+.login {
+  height: 100vh;
+}
+.login__top {
+  background: #3b63ff;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 5%;
+}
+.login__top > h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+.login__top > p {
+  color: lightgray;
+}
+.login__bottom {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login__bottom > form {
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+}
+.login__bottom > form > button {
+  background-color: #3b63ff !important;
+  color: white !important;
+}
+.login__input {
+  margin-bottom: 3% !important;
+}
+.login__option {
+  margin-top: 30px;
+
+  width: 300px;
+  text-align: center;
+}
+.login__option > p {
+  color: lightgray;
+}
+.login__option > p::before {
+  content: "";
+  width: 40%;
+  display: inline-block;
+  height: 1px;
+  background-color: lightgray;
+  margin-right: 5px;
+}
+.login__option > p::after {
+  content: "";
+  width: 40%;
+  display: inline-block;
+  height: 1px;
+  background-color: lightgray;
+  margin-left: 5px;
+}
+.login__option__icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.login__option__icon > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+.login__option__icon > .MuiSvgIcon-root:nth-child(1) {
+  color: #3b63ff;
+}
+.login__option__icon > .MuiSvgIcon-root:nth-child(2) {
+  color: #00acee;
+}
+.login__option__icon > .MuiSvgIcon-root:nth-child(3) {
+  color: #100c08;
+}
+@media only screen and (max-width: 600px) {
+  .login__bottom > form {
+    width: 80%;
+  }
+}
